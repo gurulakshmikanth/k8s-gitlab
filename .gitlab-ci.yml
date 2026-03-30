@@ -7,7 +7,7 @@ build_job:
   stage: build
   script:
     - echo "Building application"
-    - mkdir build
+    - mkdir build 
     - echo "Build complete"
 
 test_job:
